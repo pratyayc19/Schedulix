@@ -51,10 +51,28 @@ src/
 ```
 
 ## Screenshots
-**Coming Soon:**
-- Validation Suite Output
-- Algorithm Comparison Output
-- Console Timeline Renderer
+
+### Automated Validation Suite
+
+Ensures every scheduling algorithm satisfies key scheduling invariants.
+
+*(Validation screenshot)*
+
+---
+
+### Algorithm Performance Comparison
+
+Compares waiting time, turnaround time, response time, CPU utilization, and throughput across all implemented algorithms.
+
+*(Comparison screenshot)*
+
+---
+
+### Console Timeline Renderer
+
+Visualizes CPU execution order using an ASCII Gantt-style timeline.
+
+*(Timeline screenshot)*
 
 ## Complexity Table
 | Algorithm | Time Complexity | Preemptive | Starvation Risk |
