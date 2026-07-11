@@ -51,10 +51,34 @@ src/
 ```
 
 ## Screenshots
-**Coming Soon:**
-- Validation Suite Output
-- Algorithm Comparison Output
-- Console Timeline Renderer
+
+### Validation Suite
+
+The automated validation suite verifies that every implemented scheduling algorithm satisfies core scheduling invariants, ensuring correctness and consistency across all simulations.
+
+<p align="center">
+  <img src="assets/validation-suite.png" alt="Validation Suite" width="850">
+</p>
+
+---
+
+### Algorithm Comparison Engine
+
+The comparison engine executes identical workloads across all implemented scheduling algorithms and presents a side-by-side comparison of average waiting time, turnaround time, response time, CPU utilization, and throughput.
+
+<p align="center">
+  <img src="assets/comparison-engine.png" alt="Comparison Engine" width="850">
+</p>
+
+---
+
+### Console Timeline Renderer
+
+The ASCII-based timeline renderer visualizes CPU execution as a Gantt chart, making process scheduling and context switches easy to understand.
+
+<p align="center">
+  <img src="assets/timeline-renderer.png" alt="Timeline Renderer" width="850">
+</p>
 
 ## Complexity Table
 | Algorithm | Time Complexity | Preemptive | Starvation Risk |
